@@ -1,0 +1,187 @@
+/*reset value*/
+*{margin: 0px;
+	padding: 0px;}
+
+/*page size*/
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/*header*/
+div.head{background-color:#ffffff; 
+	height:60px;
+	width:100%;
+	box-shadow: 0px 2px 4px gray;
+	position: absolute;
+	min-width: 100%;
+	overflow:hidden;}
+
+div.head-in{font-size:35px;
+font-family:"Goergia",Times, Times New Roman,Serif;
+font-weight:bolder;
+color:white;
+background-color:teal;
+height:70px; 
+width:25%;
+margin-left:100px;
+float:left;
+padding-top:10px;}
+
+/*navigation bar*/
+#navbar{
+  
+width:600px;
+height:30px;
+border-left:1px solid #cccccc; 
+float:right;
+}
+
+/*wrapper is created to wrap around divisions*/
+.wrapper {
+  margin: 0 auto;
+  
+  width: 100%;
+  z-index: 1;}
+
+
+/*navigation bar*/
+#navbar{
+width:600px;
+height:30px;
+border-left:1px solid #cccccc; 
+float:right;
+}
+
+#navbar>li{
+width:199px;
+list-style: none;
+line-height:10px;
+float:left;
+border-left:1px solid gray;
+}
+
+li>a{
+display: block;
+line-height:60px; 
+text-align:center;
+font-family: 'Georgia', Times, Times New Roman, serif;font-size:18px;
+color:#585858;
+}
+
+li>a:hover{
+background-color:#E6E6E6;
+} /*when you drag mouse above the bar will change the color*/
+
+
+
+/*body*/
+body{
+background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/vintage-concrete.png);
+position: relative;
+margin: 0;
+padding-bottom: 6rem;
+min-height: 100%;
+font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+
+/*container1*/
+#container {
+background-color:#ffffff;
+height:400px;
+width:40%;
+float:left;
+margin-top:90px;
+position:absolute;
+left:100px; 
+min-width:500px;
+min-height:700px;
+overflow: scroll;
+}
+
+div.port{font-size:30px;
+font-family:"Goergia",Times, Times New Roman,Serif;
+font-weight:bolder;
+color:teal; 
+background-color: white; 
+height:50px;
+width: 90%;
+margin-right: 25px;
+margin-left: 25px;
+margin-bottom: 25px; 
+border-bottom: 4px solid #cccccc;
+text-align: left;
+margin-top:25px;
+}
+
+.content>img {
+width:40%; 
+float:left;
+margin: 0px 25px 25px 25px;
+height:170px;
+position: relative;
+z-index: 100;
+}
+
+#caption>span{
+font-size:25px;
+color:white;
+font-family:"Goergia",Times, Times New Roman,Serif;
+text-align: center;
+background-color:teal;
+width:40%;
+height:50px;
+margin:75px 100px 25px 25px;
+left:0;
+padding-top: 15px;
+position: relative;
+z-index: 2000;
+float:left;
+}
+
+
+/*container2*/
+#container2{
+background-color:#ffffff;
+height:200px; 
+width:25%;
+margin-top:90px;
+position:absolute; 
+margin-left: 25px; 
+left:60%;
+max-width:285px; }
+
+div.contact-me{
+font-size:25px; 
+font-family:"Goergia",Times, Times New Roman,Serif;
+font-weight:bolder;
+color:teal; 
+background-color: white; 
+height:40px;
+width: 240px;
+margin-right: 25px;
+margin-left: 25px;
+margin-bottom: 25px; 
+border-bottom: 2px solid #cccccc;
+text-align: center;
+margin-top:25px;
+}
+
+.content2>a {
+margin: 0px 0px 25px 6px;
+margin-left: 10px;
+
+}
+
+/*footer*/
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color:#636464;
+  text-align: center;
+  border-top:7px #4caca4 solid;
+}
